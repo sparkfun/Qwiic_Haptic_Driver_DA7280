@@ -17893,9 +17893,9 @@ pull up resistors.</text>
 <wire x1="96.52" y1="88.9" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="J1" pin="1"/>
-<wire x1="210.82" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
-<label x="213.36" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="210.82" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
+<label x="213.36" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="J1" pin="4"/>
 </segment>
 </net>
 <net name="GPI1" class="0">
@@ -17905,9 +17905,9 @@ pull up resistors.</text>
 <label x="99.06" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="J1" pin="3"/>
-<wire x1="210.82" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
-<label x="213.36" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="210.82" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<label x="213.36" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="GPI2" class="0">
@@ -17917,9 +17917,9 @@ pull up resistors.</text>
 <label x="99.06" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="J1" pin="4"/>
-<wire x1="210.82" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<label x="213.36" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="210.82" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<label x="213.36" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -17938,14 +17938,14 @@ pull up resistors.</text>
 </net>
 <net name="GPI0/PWM" class="0">
 <segment>
-<pinref part="J4" gate="J1" pin="2"/>
-<wire x1="210.82" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="213.36" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="PWM/GPI0"/>
 <wire x1="99.06" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="99.06" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+<label x="213.36" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="J1" pin="1"/>
 </segment>
 </net>
 </nets>
