@@ -66,7 +66,6 @@
 <wire x1="1.48" y1="-1.47" x2="1.48" y2="1.53" width="0.1" layer="21"/>
 <wire x1="1.48" y1="1.53" x2="-1.52" y2="1.53" width="0.1" layer="21"/>
 <wire x1="-1.52" y1="1.53" x2="-1.52" y2="-1.47" width="0.1" layer="21"/>
-<circle x="-2.52" y="2.53" radius="0.5" width="0" layer="21"/>
 <smd name="P1" x="-1.32" y="0.68" dx="0.25" dy="0.5" layer="1" rot="R270"/>
 <smd name="P2" x="-1.32" y="0.03" dx="0.25" dy="0.5" layer="1" rot="R270"/>
 <smd name="P3" x="-1.32" y="-0.62" dx="0.25" dy="0.5" layer="1" rot="R270"/>
@@ -93,6 +92,7 @@
 <rectangle x1="0.43" y1="1.204" x2="0.83" y2="1.454" layer="51" rot="R90"/>
 <text x="-1.52" y="1.832" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
 <text x="-1.52" y="-2.232" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
+<circle x="-1.905" y="1.905" radius="0.283978125" width="0" layer="21"/>
 </package>
 <package name="COIN_VIBRATION_MOTOR">
 <description>&lt;h3&gt;G1040003D Coin Vibration Motor&lt;/h3&gt;
@@ -126,23 +126,23 @@
 </packages>
 <symbols>
 <symbol name="DA7280">
-<wire x1="-11.43" y1="10.16" x2="-11.43" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="-7.62" x2="11.43" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="11.43" y1="-7.62" x2="11.43" y2="10.16" width="0.254" layer="94"/>
-<wire x1="11.43" y1="10.16" x2="-11.43" y2="10.16" width="0.254" layer="94"/>
-<pin name="VDD" x="-16.51" y="7.62" length="middle" direction="pwr"/>
-<pin name="GND" x="-16.51" y="-5.08" length="middle" direction="pwr"/>
-<pin name="SDA" x="16.51" y="7.62" length="middle" rot="R180"/>
-<pin name="SCL" x="16.51" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="!IRQ!" x="16.51" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="PWM/GPI0" x="16.51" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="VDDIO" x="-16.51" y="5.08" length="middle" direction="pwr"/>
-<pin name="GPI1" x="16.51" y="-2.54" length="middle" direction="in" rot="R180"/>
-<pin name="GPI2" x="16.51" y="-5.08" length="middle" direction="in" rot="R180"/>
-<pin name="OUTP" x="-16.51" y="2.54" length="middle" direction="out"/>
-<pin name="OUTN" x="-16.51" y="-2.54" length="middle" direction="out"/>
-<text x="-11.43" y="11.176" size="1.778" layer="95">&gt;NAME</text>
-<text x="-11.43" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="VDD" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="SDA" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="SCL" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="!IRQ!" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="PWM/GPI0" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="VDDIO" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="GPI1" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="GPI2" x="17.78" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="OUTP" x="-15.24" y="2.54" length="middle" direction="out"/>
+<pin name="OUTN" x="-15.24" y="-2.54" length="middle" direction="out"/>
+<text x="-10.16" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="G1040003D">
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
