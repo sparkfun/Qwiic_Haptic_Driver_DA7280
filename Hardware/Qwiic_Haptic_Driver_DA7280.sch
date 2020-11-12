@@ -17545,7 +17545,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
@@ -17570,7 +17570,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
@@ -17614,9 +17614,9 @@ pull up resistors.</text>
 <attribute name="VALUE" x="152.4" y="86.106" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="162.56" y="99.314" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="J1" x="205.74" y="63.5" smashed="yes">
-<attribute name="VALUE" x="200.66" y="56.134" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="200.66" y="71.628" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="J1" x="205.74" y="68.58" smashed="yes">
+<attribute name="VALUE" x="200.66" y="61.214" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="200.66" y="76.708" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R1" gate="G$1" x="205.74" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="204.216" y="149.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -17634,8 +17634,8 @@ pull up resistors.</text>
 <instance part="SUPPLY3" gate="G$1" x="177.8" y="99.06" smashed="yes">
 <attribute name="VALUE" x="177.8" y="101.854" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="213.36" y="71.12" smashed="yes">
-<attribute name="VALUE" x="213.36" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="213.36" y="76.2" smashed="yes">
+<attribute name="VALUE" x="213.36" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND2" gate="1" x="177.8" y="55.88" smashed="yes">
 <attribute name="VALUE" x="177.8" y="55.626" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -17643,8 +17643,8 @@ pull up resistors.</text>
 <instance part="GND3" gate="1" x="177.8" y="83.82" smashed="yes">
 <attribute name="VALUE" x="177.8" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND4" gate="1" x="213.36" y="55.88" smashed="yes">
-<attribute name="VALUE" x="213.36" y="55.626" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND4" gate="1" x="213.36" y="60.96" smashed="yes">
+<attribute name="VALUE" x="213.36" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R4" gate="G$1" x="170.18" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="168.656" y="147.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -17725,8 +17725,8 @@ pull up resistors.</text>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="2"/>
-<wire x1="210.82" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="63.5" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="68.58" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -17776,8 +17776,8 @@ pull up resistors.</text>
 <segment>
 <pinref part="J3" gate="J1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="210.82" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="60.96" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="66.04" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -17809,8 +17809,8 @@ pull up resistors.</text>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="4"/>
-<wire x1="210.82" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
-<label x="215.9" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="210.82" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="215.9" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -17837,8 +17837,8 @@ pull up resistors.</text>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="3"/>
-<wire x1="210.82" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
-<label x="215.9" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="210.82" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="215.9" y="71.12" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
