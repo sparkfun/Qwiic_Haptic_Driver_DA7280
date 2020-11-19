@@ -6515,8 +6515,8 @@ Out</text>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="PIN1" x="10.16" y="2.54" length="middle" rot="R180"/>
-<pin name="PIN2" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PIN1" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PIN2" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.366" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
@@ -6964,8 +6964,7 @@ pull up resistors.</text>
 <attribute name="VALUE" x="172.085" y="132.588" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="JP1" gate="G$1" x="170.18" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="167.64" y="165.1" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="167.64" y="157.48" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="167.64" y="160.02" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="GND5" gate="1" x="170.18" y="127" smashed="yes">
 <attribute name="VALUE" x="170.18" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -6974,7 +6973,6 @@ pull up resistors.</text>
 <attribute name="VALUE" x="170.18" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="JP3" gate="G$1" x="213.36" y="157.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="208.28" y="160.401" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="210.82" y="154.559" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="213.36" y="165.1" smashed="yes">
