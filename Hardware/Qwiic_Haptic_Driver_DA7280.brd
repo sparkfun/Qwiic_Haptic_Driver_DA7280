@@ -6277,7 +6277,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R3" pad="2"/>
 <contactref element="U1" pad="P4"/>
 <contactref element="JP2" pad="2"/>
-<via x="12.3952" y="7.874" extent="1-16" drill="0.254"/>
+<via x="12.3698" y="7.874" extent="1-16" drill="0.3048"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="JP3" pad="2"/>
 <contactref element="J1" pad="2"/>
@@ -6285,7 +6285,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="7.65080625" y1="11.48620625" x2="5.9370125" y2="13.2" width="0.508" layer="1"/>
 <wire x1="5.08" y1="13.2" x2="5.9370125" y2="13.2" width="0.508" layer="1"/>
 <wire x1="7.65080625" y1="11.46080625" x2="7.65080625" y2="11.48620625" width="0.508" layer="1"/>
-<wire x1="7.65080625" y1="11.46080625" x2="7.73798125" y2="11.46080625" width="0.508" layer="16"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J3" pad="2"/>
 <via x="2.54" y="13.843" extent="1-16" drill="0.381"/>
@@ -6307,7 +6306,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="16.081840625" y1="10.07055625" x2="18.211284375" y2="12.2" width="0.508" layer="1"/>
 <wire x1="18.211284375" y1="12.2" x2="20.32" y2="12.2" width="0.508" layer="1"/>
 <wire x1="15.0464375" y1="9.017346875" x2="16.081840625" y2="10.05275" width="0.508" layer="1"/>
-<wire x1="12.3952" y1="7.874" x2="13.2334" y2="7.874" width="0.508" layer="1"/>
+<wire x1="12.3698" y1="7.874" x2="13.208" y2="7.874" width="0.508" layer="1"/>
 <wire x1="5.08" y1="13.2" x2="3.81" y2="13.2" width="0.508" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.3048" thermals="no">
 <vertex x="13.716" y="8.0518"/>
@@ -6323,22 +6322,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </polygon>
 <wire x1="11.43" y1="8.636" x2="11.43" y2="9.144" width="0.508" layer="16"/>
 <wire x1="11.43" y1="8.636" x2="12.192" y2="7.874" width="0.508" layer="16"/>
-<wire x1="12.192" y1="7.874" x2="12.3952" y2="7.874" width="0.508" layer="16"/>
+<wire x1="12.192" y1="7.874" x2="12.3698" y2="7.874" width="0.508" layer="16"/>
 <wire x1="21.4376" y1="18.542" x2="21.4376" y2="12.2174" width="0.2032" layer="16"/>
 <wire x1="21.4376" y1="12.2174" x2="21.9075" y2="11.7475" width="0.2032" layer="16"/>
-<via x="21.9075" y="11.7475" extent="1-16" drill="0.254"/>
+<via x="21.9075" y="11.7475" extent="1-16" drill="0.381"/>
 <wire x1="1.397" y1="14.986" x2="1.397" y2="18.669" width="0.2032" layer="16"/>
-<wire x1="8.5397125" y1="10.795" x2="8.47175" y2="10.7270375" width="0.508" layer="16"/>
-<wire x1="7.65080625" y1="11.46080625" x2="8.3166125" y2="10.795" width="0.508" layer="16"/>
-<wire x1="8.3166125" y1="10.795" x2="8.5397125" y2="10.795" width="0.508" layer="16"/>
-<wire x1="11.43" y1="9.144" x2="9.7880875" y2="10.7859125" width="0.508" layer="16"/>
-<wire x1="9.7880875" y1="10.7859125" x2="8.763" y2="10.7859125" width="0.508" layer="16"/>
-<wire x1="8.763" y1="10.7859125" x2="8.47175" y2="10.7270375" width="0" layer="19" extent="16-16"/>
+<wire x1="8.3166125" y1="10.795" x2="7.65080625" y2="11.46080625" width="0.508" layer="16"/>
+<wire x1="11.43" y1="9.144" x2="9.779" y2="10.795" width="0.508" layer="16"/>
+<wire x1="9.779" y1="10.795" x2="8.3166125" y2="10.795" width="0.508" layer="16"/>
+<wire x1="8.763" y1="10.7859125" x2="8.3257" y2="10.7859125" width="0.508" layer="16"/>
+<wire x1="8.3257" y1="10.7859125" x2="7.65080625" y2="11.46080625" width="0.508" layer="16"/>
 </signal>
 <signal name="VDDIO">
 <contactref element="U1" pad="P9"/>
 <contactref element="JP2" pad="1"/>
-<via x="10.16" y="9.144" extent="1-16" drill="0.254"/>
+<via x="10.16" y="9.144" extent="1-16" drill="0.381"/>
 <wire x1="10.16" y1="9.144" x2="10.668" y2="8.636" width="0.508" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.3048" thermals="no">
 <vertex x="11.5062" y="8.2042"/>
@@ -6374,7 +6372,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,6408056c3307c2e6"/>
 <approved hash="4,1,664fd407ddf36fbf"/>
 <approved hash="4,1,392113e6feb1da13"/>
-<approved hash="4,1,8f7ad3846a919351"/>
 <approved hash="4,1,5d451fa37d202be9"/>
 <approved hash="4,16,5d451fa37d202be9"/>
 <approved hash="4,16,93be8e353c4d5b77"/>
@@ -6382,9 +6379,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,8f7ad3846a919351"/>
 <approved hash="5,1,828de40eb1fad4ea"/>
 <approved hash="5,1,831f31d0188a4157"/>
-<approved hash="23,1,dd5182c182ffdd6f"/>
 <approved hash="5,1,671bb3a0744785a8"/>
-<approved hash="23,1,48aa9addcdb8ab5d"/>
+<approved hash="5,16,b852236ce065c818"/>
+<approved hash="4,1,8f7ad3846a919351"/>
+<approved hash="19,16,236d08d71b54efde"/>
+<approved hash="5,16,aa75f344d56c585d"/>
+<approved hash="1,20,526479027a9551f3"/>
+<approved hash="23,1,684d4c98d375403e"/>
+<approved hash="23,1,fc6b7699773dfdcf"/>
+<approved hash="23,1,dd5182c182ffdd6f"/>
 </errors>
 </board>
 </drawing>
