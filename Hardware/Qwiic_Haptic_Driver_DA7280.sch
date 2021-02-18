@@ -14670,7 +14670,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
@@ -14678,6 +14677,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="LED"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VDDIO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14707,8 +14707,8 @@ pull up resistors.</text>
 VDDIO with different 
 voltage (typically 1.8V).
 </text>
-<wire x1="20.32" y1="111.76" x2="20.32" y2="106.68" width="0.2032" layer="97" style="dashdot"/>
-<wire x1="20.32" y1="106.68" x2="38.1" y2="106.68" width="0.2032" layer="97" style="dashdot"/>
+<wire x1="20.32" y1="111.76" x2="20.32" y2="109.22" width="0.2032" layer="97" style="dashdot"/>
+<wire x1="20.32" y1="109.22" x2="40.64" y2="109.22" width="0.2032" layer="97" style="dashdot"/>
 <text x="185.42" y="96.52" size="1.778" layer="97" font="vector">QISO</text>
 <text x="149.86" y="104.14" size="1.27" layer="97" font="vector">Qwiic Bus Isolate - cut this trace
 to separate the qwiic bus power (3.3V)
@@ -14757,8 +14757,8 @@ pulled up to 3.3V. </text>
 <instance part="GND2" gate="1" x="193.04" y="48.26" smashed="yes">
 <attribute name="VALUE" x="193.04" y="48.006" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND3" gate="1" x="193.04" y="76.2" smashed="yes">
-<attribute name="VALUE" x="193.04" y="75.946" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND3" gate="1" x="198.12" y="73.66" smashed="yes">
+<attribute name="VALUE" x="198.12" y="73.406" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND4" gate="1" x="228.6" y="60.96" smashed="yes">
 <attribute name="VALUE" x="228.6" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -14813,9 +14813,9 @@ pulled up to 3.3V. </text>
 <instance part="GND7" gate="1" x="124.46" y="81.28" smashed="yes">
 <attribute name="VALUE" x="124.46" y="81.026" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="JP2" gate="G$1" x="43.18" y="106.68" smashed="yes" rot="R90"/>
-<instance part="SUPPLY10" gate="VDD" x="48.26" y="116.84" smashed="yes">
-<attribute name="VALUE" x="48.26" y="119.634" size="1.778" layer="96" align="bottom-center"/>
+<instance part="JP2" gate="G$1" x="43.18" y="109.22" smashed="yes" rot="R90"/>
+<instance part="SUPPLY10" gate="VDD" x="48.26" y="119.38" smashed="yes">
+<attribute name="VALUE" x="48.26" y="122.174" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY11" gate="VDD" x="81.28" y="116.84" smashed="yes">
 <attribute name="VALUE" x="81.28" y="119.634" size="1.778" layer="96" align="bottom-center"/>
@@ -14832,9 +14832,6 @@ pulled up to 3.3V. </text>
 <instance part="SUPPLY1" gate="VDD" x="193.04" y="104.14" smashed="yes">
 <attribute name="VALUE" x="193.04" y="106.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY5" gate="VDD" x="193.04" y="63.5" smashed="yes">
-<attribute name="VALUE" x="193.04" y="66.294" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY2" gate="VDD" x="228.6" y="76.2" smashed="yes">
 <attribute name="VALUE" x="228.6" y="78.994" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -14849,6 +14846,9 @@ pulled up to 3.3V. </text>
 <instance part="JP4" gate="G$1" x="193.04" y="96.52" smashed="yes" rot="R90"/>
 <instance part="LOGO2" gate="G$1" x="233.68" y="45.72" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="215.9" y="38.1" smashed="yes"/>
+<instance part="SUPPLY4" gate="G$1" x="38.1" y="119.38" smashed="yes">
+<attribute name="VALUE" x="38.1" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14863,8 +14863,8 @@ pulled up to 3.3V. </text>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="190.5" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="81.28" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="81.28" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="1"/>
@@ -15059,24 +15059,18 @@ pulled up to 3.3V. </text>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="50.8" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="99.06" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="99.06" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="111.76" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
-<junction x="48.26" y="114.3"/>
+<wire x1="43.18" y1="114.3" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="116.84" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
+<junction x="48.26" y="116.84"/>
 <pinref part="SUPPLY10" gate="VDD" pin="VDD"/>
-<wire x1="48.26" y1="114.3" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="116.84" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="VDD" pin="VDD"/>
 <wire x1="170.18" y1="165.1" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="55.88" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="2"/>
@@ -15106,6 +15100,11 @@ pulled up to 3.3V. </text>
 <wire x1="50.8" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VDDIO"/>
+<wire x1="43.18" y1="101.6" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="101.6" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
+<junction x="43.18" y="101.6"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
@@ -15120,6 +15119,12 @@ pulled up to 3.3V. </text>
 <wire x1="190.5" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="83.82" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<junction x="193.04" y="83.82"/>
+<wire x1="193.04" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="195.58" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
