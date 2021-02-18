@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -6214,9 +6214,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$11" library="top" package="DRIVER8" value="" x="14.097" y="9.398" smashed="yes" rot="MR0"/>
 <element name="U$29" library="top" package="DA72809" value="" x="17.399" y="7.747" smashed="yes" rot="MR0"/>
 <element name="U$30" library="top" package="#IO#6" value="" x="6.604" y="10.287" smashed="yes" rot="MR0"/>
-<element name="JP4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="LED" x="22.9362" y="12.5222" smashed="yes" rot="MR180">
-<attribute name="NAME" x="22.9362" y="11.3792" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="22.9362" y="13.6652" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
+<element name="JP4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="LED" x="23.0632" y="12.5222" smashed="yes" rot="MR180">
+<attribute name="NAME" x="23.0632" y="11.3792" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="23.0632" y="13.6652" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U$31" library="bot" package="#QISO#0" value="" x="22.606" y="14.2494" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.794" y="26.162" smashed="yes" rot="MR0"/>
@@ -6480,8 +6480,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="22.352" y="10.922" extent="1-16" drill="0.381"/>
 <wire x1="22.352" y1="10.922" x2="22.606" y2="11.176" width="0.508" layer="16"/>
 <wire x1="22.606" y1="11.176" x2="22.9616" y2="11.176" width="0.508" layer="16"/>
-<wire x1="22.9616" y1="11.176" x2="23.4569" y2="11.6713" width="0.508" layer="16"/>
-<wire x1="23.4569" y1="11.6713" x2="23.4569" y2="12.5222" width="0.508" layer="16"/>
+<wire x1="22.9616" y1="11.176" x2="23.5839" y2="11.7983" width="0.508" layer="16"/>
+<wire x1="23.5839" y1="11.7983" x2="23.5839" y2="12.5222" width="0.508" layer="16"/>
 </signal>
 <signal name="VDDIO">
 <contactref element="U1" pad="P9"/>
@@ -6513,10 +6513,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="21.582" y1="12.2" x2="21.59" y2="12.192" width="0.508" layer="1"/>
 <via x="21.59" y="12.192" extent="1-16" drill="0.381"/>
 <wire x1="21.59" y1="12.192" x2="21.9202" y2="12.5222" width="0.508" layer="16"/>
-<wire x1="21.9202" y1="12.5222" x2="22.4155" y2="12.5222" width="0.508" layer="16"/>
+<wire x1="21.9202" y1="12.5222" x2="22.5425" y2="12.5222" width="0.508" layer="16"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="22.4155" y1="12.5222" x2="22.4155" y2="13.6906" width="0.254" layer="16"/>
-<wire x1="22.4155" y1="13.6906" x2="21.4376" y2="14.6685" width="0.254" layer="16"/>
+<wire x1="22.5425" y1="12.5222" x2="22.5425" y2="13.5636" width="0.254" layer="16"/>
+<wire x1="22.5425" y1="13.5636" x2="21.4376" y2="14.6685" width="0.254" layer="16"/>
 <wire x1="21.4376" y1="14.6685" x2="21.4376" y2="18.542" width="0.254" layer="16"/>
 </signal>
 </signals>
@@ -6539,18 +6539,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,5d451fa37d202be9"/>
 <approved hash="4,16,93be8e353c4d5b77"/>
 <approved hash="4,16,392113e6feb1da13"/>
-<approved hash="4,16,8f7ad3846a919351"/>
 <approved hash="5,1,828de40eb1fad4ea"/>
 <approved hash="5,1,831f31d0188a4157"/>
 <approved hash="5,1,671bb3a0744785a8"/>
 <approved hash="5,16,b852236ce065c818"/>
-<approved hash="4,1,8f7ad3846a919351"/>
 <approved hash="19,16,236d08d71b54efde"/>
 <approved hash="5,16,aa75f344d56c585d"/>
 <approved hash="1,20,526479027a9551f3"/>
 <approved hash="23,1,684d4c98d375403e"/>
 <approved hash="23,1,fc6b7699773dfdcf"/>
 <approved hash="23,1,dd5182c182ffdd6f"/>
+<approved hash="5,16,4e0b33e97286cfcb"/>
+<approved hash="5,16,f5daf74b6b9fb18a"/>
+<approved hash="5,16,da1b5d0acc5f124b"/>
+<approved hash="4,1,02d0060aa81209f6"/>
+<approved hash="4,16,02d0060aa81209f6"/>
+<approved hash="19,16,6d2eb66acd3126ca"/>
 </errors>
 </board>
 </drawing>
