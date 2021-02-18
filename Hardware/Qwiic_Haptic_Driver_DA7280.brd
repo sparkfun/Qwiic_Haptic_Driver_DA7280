@@ -6157,6 +6157,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="M1" library="TEMP" package="COIN_VIBRATION_MOTOR_CASTEL" value="G1040003D_LRA_CASTELLATED" x="12.7" y="23.09" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.494" y="17.502" size="0.6096" layer="25" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="COMP-15536" x="12.7" y="23.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.271" y="17.502" size="0.6096" layer="27" ratio="20" rot="R270"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="14.445396875" y="9.618390625" smashed="yes" rot="R135">
@@ -6554,8 +6555,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="23,1,684d4c98d375403e"/>
 <approved hash="23,1,dd5182c182ffdd6f"/>
 <approved hash="5,16,da1b5d0acc5f124b"/>
-<approved hash="4,1,02d0060aa81209f6"/>
-<approved hash="4,16,02d0060aa81209f6"/>
 <approved hash="19,16,6d2eb66acd3126ca"/>
 <approved hash="5,16,25156e5eb9adf716"/>
 <approved hash="5,16,3ff79a10fe09c946"/>
@@ -6563,8 +6562,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="1,20,e6e518031894e672"/>
 <approved hash="19,16,a19bcbbd4fa08e6e"/>
 <approved hash="23,1,502e2f5c2f3b5049"/>
-<approved hash="4,1,25513cf9389d2f50"/>
-<approved hash="4,16,25513cf9389d2f50"/>
+<approved hash="4,1,8f7ad3846a919351"/>
+<approved hash="4,1,392113e6feb1da13"/>
+<approved hash="4,16,392113e6feb1da13"/>
+<approved hash="4,16,8f7ad3846a919351"/>
 </errors>
 </board>
 </drawing>

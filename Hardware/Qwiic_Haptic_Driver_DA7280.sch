@@ -14270,7 +14270,9 @@ automatic closed-loop LRA resonant frequency tracking.
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-15536" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
