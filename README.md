@@ -1,9 +1,9 @@
-SparkFun Qwiic Haptic Driver DA7280
+SparkFun Qwiic Haptic Driver - DA7280
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](https://www.sparkfun.com/products/17590)
+[![SparkFun Qwiic Haptic Driver - DA7280 ](URL for picture of part)](https://www.sparkfun.com/products/17590)
 
-[*SparkFun Qwiic Haptic Driver DA7280 (ROB-17590)*](https://www.sparkfun.com/products/17590)
+[*SparkFun Qwiic Haptic Driver - DA7280 (ROB-17590)*](https://www.sparkfun.com/products/17590)
 
 <Basic description of the part.>
 
@@ -11,8 +11,9 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
+* **/Production** - Production panel files (.brd)
+
 
 Documentation
 --------------
