@@ -5,7 +5,11 @@ SparkFun Qwiic Haptic Driver - DA7280
 
 [*SparkFun Qwiic Haptic Driver - DA7280 (ROB-17590)*](https://www.sparkfun.com/products/17590)
 
-<Basic description of the part.>
+The SparkFun Qwiic Haptic Driver includes an itty-bitty, Linear Resonant Actuator (LRA) vibration motor and Dialog Semiconductor's DA7280 motor driver IC for applications that require haptic feedback. 
+
+Control the vibration motor with the DA7280 via I<sup>2</sup>C, PWM, or a combination of three general purpose input pins. Utilizing our handy Qwiic system, no soldering is required to connect it to the rest of your system. However, we still include 0.1"-spaced PTH pads in case you prefer to use a breadboard to access the driver's I<sup>2</sup>C, power, interrupt, and general purpose input pins on the edge of the board.
+
+This board is great for projects that require a physical indicator whenever an event is triggered. Add it to your remote control to notify you when your robot has hit a wall. Combine it with an accelerometer to remind you to correct your posture. Or use it with a distance sensor to alert you when a ninja is walking up to you at your desk.
 
 Repository Contents
 -------------------
